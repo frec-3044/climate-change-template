@@ -1,19 +1,17 @@
 
 # climate-module
 
-![](https://espm-157.carlboettiger.info/img/co2.png)
-
 ## Overview
 
 What is the evidence for a changing climate? In this unit, we will examine some of the most important indicators of global climate change: including CO2 concentration, global mean temperature, sea level rise, land ice sheet melt, and arctic sea ice cover. We will wrangle a wide range of tabular data file formats used by NOAA and other agencies and introduce the fundamentals of data visualization with `ggplot2` and data processing with basic functions from the readr, tidyr, and dplyr packages as we seek to replicate the principle results of climate change over the last decades and also the past thousands of years. In particular, in this module we will recreate the now-famous "Hockey-stick" curve combining present and historical CO2 records from [Petit et al (1999, *Nature*)](https://doi.org/10.1038/20859 "Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica").
 
-- author: Carl Boettiger (@cboettig)
-- contact: <cboettig@berkeley.edu>
-- url: <https://github.com/espm-157/climate-template>
-- date: 2018-12-18
+- author: Quinn Thomas (adapted from Carl Boettiger (@cboettig))
+- contact: <rqthomas@vt.edu>
+- url: 
+- date: 2022-01-05
 - license: MIT, CC-BY
-- copyright: Carl Boettiger
-- package: <https://github.com/espm-157/climate-template/archive/master.zip>
+- copyright: Quinn Thomas & Carl Boettiger
+- package: 
 
 ## Feedback
 
@@ -22,7 +20,7 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 ## Questions
 
  - What is the evidence for a changing climate?
- - How do find & intepret data sources behind main climate change indicators?
+ - How do find & interpret data sources behind main climate change indicators?
  - How do we read and plot this data in a scriptable & reproducible manner?
  - How do we communicate technical analysis in notebook formats that combine code, text, and visuals?
 
@@ -44,11 +42,9 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Instructions
 
-  - Open the notebook `assignment/climate.Rmd` in RStudio
+  - Open the notebook `assignment/climate-change.Rmd` in RStudio
   - Work through the exercises described in the notebook.
-  - Optional extensions:
-    - `knit` + commit output files to GitHub
-    - Enable Travis-CI on your repository
+  - `knit` + commit output files to GitHub
 
 ## Context
 
@@ -57,7 +53,7 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Timeframe
 
-  - This module is usually delivered over 2 weeks (3-6 class session).
+  - This module is usually delivered over 1 week (2 75-minute class session).
 
 
 ## Background Reading, Video & Exercises
