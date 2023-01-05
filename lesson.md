@@ -24,21 +24,18 @@ What is the evidence for a changing climate? In this unit, we will examine some 
  - How do we read and plot this data in a scriptable & reproducible manner?
  - How do we communicate technical analysis in notebook formats that combine code, text, and visuals?
 
-
 ## Objectives
 
   - Become familiar with a wide range of tabular data formats
   - Become familiar reading data into R and generating plots in `ggplot`
-  - Demonstrate ability to use RStudio, GitHub, and Travis-CI workflow to demonstrate reproducible output.
+  - Demonstrate ability to use RStudio and GitHub workflows to demonstrate reproducible output.
   - Demonstrate ability to communicate clearly in code, written text, and visual formats.
-  - Practice pair-coding, teamwork
-
 ## Requirements:
 
   - `tidyverse`
   - `R`
   - RStudio
-  - Typically also used to teach Git & GitHub.
+  - Git & GitHub.
 
 ## Instructions
 
@@ -58,10 +55,4 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Background Reading, Video & Exercises
 
-The following DataCamp lessons are spread out over the instructional period in advance of the corresponding class session.
-
-  - [RStudio IDE, Part I, Chapter 1: “Orientation”](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1)
-  - [Authoring RMarkdown Reports, Chapter 1](https://www.datacamp.com/courses/reporting-with-r-markdown)
-  - [Tidyverse Chapter 1: Data Wrangling](https://www.datacamp.com/courses/introduction-to-the-tidyverse)
-  - [Tidyverse Chapter 1: Data Visualization](https://www.datacamp.com/courses/introduction-to-the-tidyverse)
-  - [RStudio IDE Part II, Chapter II: Version Control](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-2)
+The background reading is embbed in the assignment Rmarkdown as links to the relevant sections of [R for Data Science book (2nd edition)](https://r4ds.hadley.nz) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.
