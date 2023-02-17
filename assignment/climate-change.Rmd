@@ -29,8 +29,6 @@ ggplot(co2, aes(x = decimal_date, y = monthly_average)) +
   geom_line() + 
   geom_line(aes(y = deseasonalized), color = "blue") +
   labs(x = "Year", y = "CO2 concentration (ppm)")
-  
-
 ```
 
 **Question 1:**
@@ -45,9 +43,9 @@ How does CO2 vary within a year?  What month is it at max?  Min?  What might exp
 
 **Answer 2:**
 
-------------------------
 
-# Global Temperature Data
+
+## Global Temperature Data
 
 Current climate change is affecting many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g. West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature, but also with the rate that the temperature changes. Very rapid changes make it more likely that species (maybe even including humans!) cannot adapt and will go extinct. 
 
@@ -55,55 +53,59 @@ Each of the most recent years have the warmest on record.  In this section we wi
 
 Data from: <http://climate.nasa.gov/vital-signs/global-temperature>
 
-**Question 1:**
+**Question 3:**
 
-Describe the data set to the best of your ability given the documentation provided.  Describe what kind of column each data contains and what units it is measured in.  Then address our three key questions in understanding this data:
+Describe the data set to the best of your ability given the documentation provided. Describe what kind of column each data contains and what units it is measured in. Then address our three key questions in understanding this data:
 
 - How are the measurements made? What is the associated measurement uncertainty?
 - What is the spatial resolution of the data? What is the temporal resolution of the data?
 - Are there missing values? How should they be handled?
 
-**Answer 1:**
+**Answer 3:**
 
-**Question 2:**
+
+**Question 4:**
 
 Construct the necessary R code to import and prepare for manipulation the following data set: <http://climate.nasa.gov/system/internal_resources/details/original/647_Global_Temperature_Data_File.txt>
 
-**Answer 2:**
+**Answer 4:**
 
-**Question 3:**
+**Question 5:**
 
 Plot the trend in global mean temperatures over time.  Describe what you see in the plot and how you interpret the patterns you observe.
 
-**Answer 3:**
+**Answer 5:**
 
 ## Evaluating the evidence for a "Pause" in warming?
 
 The [2013 IPCC Report](https://www.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SummaryVolume_FINAL.pdf) included a tentative observation of a "much smaller increasing trend" in global mean temperatures since 1998 than was observed previously.  This led to much discussion in the media about the existence of a "Pause" or "Hiatus" in global warming rates, as well as much research looking into where the extra heat could have gone.  (Examples discussing this question include articles in [The Guardian](http://www.theguardian.com/environment/2015/jun/04/global-warming-hasnt-paused-study-finds), [BBC News](http://www.bbc.com/news/science-environment-28870988), and [Wikipedia](https://en.wikipedia.org/wiki/Global_warming_hiatus)). 
 
-
 You will use rolling averages to help you explore the evidence for a pause. You have not been provided instructions for calculating rolloing means.
-
-
-**Question 5:**
-
-Use a search engine (e.g., Google), to search for how to calculate a rolling average in R.  What search term did you use and what website did you end up using?  Why did you select this particular website?
-
-**Answer 5:**
 
 **Question 6:**
 
-- What is the meaning of "5 year average" vs "annual average"?
-- Construct 5 year averages from the annual data.  Construct 10 & 20-year averages. 
-- Plot the different averages and describe what differences you see and why.  
+Use a search engine (e.g., Google), to search for how to calculate a rolling average in R.  What search term did you use and what website did you end up using?  Why did you select this particular website?
 
 **Answer 6:**
 
 **Question 7:**
 
-By examining the data here, what evidence do you find or not find for such a pause? 
+- What is the meaning of "5 year average" vs "annual average"?
+- Create a data frame from the annual data with three new columns: 5-year running averages, 10-year running averages, and 20-year running averages.
 
 **Answer 7:**
+
+**Question 8:**
+
+Plot the different averages on the same plot and describe what differences you see and why.  
+
+**Answer 8:**
+
+**Question 9:**
+
+By examining the data here, what evidence do you find or not find for such a pause? 
+
+**Answer 9:**
 
 ## Longer term trends in CO2 Records
 
@@ -118,12 +120,14 @@ Vostok Core, back to 400,000 yrs before present day
 - Description of data set: <https://cdiac.ess-dive.lbl.gov/trends/co2/vostok.html>
 - Data source: <https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/vostok.icecore.co2>
 
-**Question 8:**
+**Question 10:**
+
+The broad question is: how do recent atmospheric CO2 levels compare to historical levels?
 
 Your answers to this Question is going to be a mix of code chunks and text.
 
 - Describe the data set: what are the columns and units? Where do the numbers come from? 
-- What is the uncertainty in the measurement? Resolution of the data? Interpretation of missing values?
+- What is resolution of the data? Interpretation of missing values?
 - Read in and prepare data for analysis.
 - Reverse the ordering to create a chronological record.  
 - Plot data
@@ -132,6 +136,10 @@ Your answers to this Question is going to be a mix of code chunks and text.
 - Plot the combined data
 - Describe your conclusions
 
-**Answer 8:**
+**Answer 10:**
+
+# Knitting and committing
+
+Remember to Knit your document as a `github_document` and comment+push to GitHub your code, knitted document, and any files in the `figure-gfm` subdirectory that was created when you knitted the document.
 
 
