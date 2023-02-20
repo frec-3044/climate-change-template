@@ -1,9 +1,16 @@
-# Climate Change Module
+---
+title: 'Climate Change Module'
+author: 'Quinn Thomas'
+output:
+  github_document: default
+editor_options: 
+  markdown: 
+    wrap: 80
+---
 
 ```{r message=FALSE}
 library(tidyverse)
 ```
-
 
 ## Warm-up: Examining CO2 trends in R
 
@@ -127,14 +134,14 @@ The broad question is: how do recent atmospheric CO2 levels compare to historica
 Your answers to this Question is going to be a mix of code chunks and text.
 
 - Describe the data set: what are the columns and units? Where do the numbers come from? 
-- What is resolution of the data? Interpretation of missing values?
-- Read in and prepare data for analysis.
-- Reverse the ordering to create a chronological record.  
-- Plot data
-- Consider various smoothing windowed averages of the data. 
-- Combine this time series with the Mauna Loa data (the Warm-up exercise)
-- Plot the combined data
-- Describe your conclusions
+- What is resolution of the data? Interpretation of missing values?  
+- Read in and prepare data for analysis.   
+- Reverse the ordering to create a chronological record.    
+- Plot data.  
+- Consider various smoothing windowed averages of the data using in the plots.   
+- Combine this time series with the Mauna Loa data (the Warm-up exercise).  Hint:  make sure both datasets have the same columns in the same order and use [`bind_rows`](https://dplyr.tidyverse.org/reference/bind_rows.html).   
+- Plot the combined data.    
+- Describe your conclusions to the question "how do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
 
 **Answer 10:**
 
