@@ -45,8 +45,6 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Context
 
-  - This module has been developed for and delivered to both upper division undergraduate and first year graduate students at University of California Berkeley across a wide range of natural and social science fields.  This module is typically delivered in a *flipped classroom* format, with basic concepts introduced through DataCamp videos and exercises in advance of each classroom session.  More information at <https://espm-157.carlboettiger.info>
-
 
 ## Timeframe
 
