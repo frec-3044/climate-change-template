@@ -54,7 +54,7 @@ How does CO2 vary within a year?  What month is it at max?  Min?  What might exp
 
 ## Global Temperature Data
 
-Current climate change is affecting many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g. West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature, but also with the rate that the temperature changes. Very rapid changes make it more likely that species (maybe even including humans!) cannot adapt and will go extinct. 
+Current climate change is affecting many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g. West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature, but also with the rate that the temperature changes. Very rapid changes make it more likely that species cannot adapt and will go extinct. 
 
 Each of the most recent years have the warmest on record.  In this section we will analyze global mean temperature data.
 
@@ -73,7 +73,7 @@ Describe the data set to the best of your ability given the documentation provid
 
 **Question 4:**
 
-Construct the necessary R code to import and prepare for manipulation the following data set: <http://climate.nasa.gov/system/internal_resources/details/original/647_Global_Temperature_Data_File.txt>
+Construct the necessary R code to import and prepare for plotting the following data set: <http://climate.nasa.gov/system/internal_resources/details/original/647_Global_Temperature_Data_File.txt>
 
 **Answer 4:**
 
@@ -87,11 +87,11 @@ Plot the trend in global mean temperatures over time.  Describe what you see in 
 
 The [2013 IPCC Report](https://www.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SummaryVolume_FINAL.pdf) included a tentative observation of a "much smaller increasing trend" in global mean temperatures since 1998 than was observed previously.  This led to much discussion in the media about the existence of a "Pause" or "Hiatus" in global warming rates, as well as much research looking into where the extra heat could have gone.  (Examples discussing this question include articles in [The Guardian](http://www.theguardian.com/environment/2015/jun/04/global-warming-hasnt-paused-study-finds), [BBC News](http://www.bbc.com/news/science-environment-28870988), and [Wikipedia](https://en.wikipedia.org/wiki/Global_warming_hiatus)). 
 
-You will use rolling averages to help you explore the evidence for a pause. You have not been provided instructions for calculating rolloing means.
+You will use rolling averages to help you explore the evidence for a pause. You have not been provided instructions for calculating rolling means so a learning objective of this question is to practicing finding the solution.
 
 **Question 6:**
 
-Use a search engine (e.g., Google), to search for how to calculate a rolling average in R.  What search term did you use and what website did you end up using?  Why did you select this particular website?
+Use a search engine (e.g., Google), to search for how to calculate a rolling average in R. What search term did you use and what website did you end up using?  Why did you select this particular website?
 
 **Answer 6:**
 
