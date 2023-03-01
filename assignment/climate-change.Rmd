@@ -62,11 +62,7 @@ Data from: <http://climate.nasa.gov/vital-signs/global-temperature>
 
 **Question 3:**
 
-Describe the data set to the best of your ability given the documentation provided. Describe what kind of column each data contains and what units it is measured in. Then address our three key questions in understanding this data:
-
-- How are the measurements made? What is the associated measurement uncertainty?
-- What is the spatial resolution of the data? What is the temporal resolution of the data?
-- Are there missing values? How should they be handled?
+Describe the data set to the best of your ability given the documentation provided. Describe what kind of column each data contains and what units it is measured in. 
 
 **Answer 3:**
 
@@ -125,7 +121,7 @@ Hundreds of ice cores have been extracted from polar ice because they contain va
 Vostok Core, back to 400,000 yrs before present day 
 
 - Description of data set: <https://cdiac.ess-dive.lbl.gov/trends/co2/vostok.html>
-- Data source: <https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/vostok.icecore.co2>
+- Data: <https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/vostok.icecore.co2>
 
 **Question 10:**
 
@@ -139,7 +135,7 @@ Your answers to this Question is going to be a mix of code chunks and text.
 - Reverse the ordering to create a chronological record.    
 - Plot data.  
 - Consider various smoothing windowed averages of the data using in the plots.   
-- Combine this time series with the Mauna Loa data (the Warm-up exercise).  Hint:  make sure both datasets have the same columns in the same order and use [`bind_rows`](https://dplyr.tidyverse.org/reference/bind_rows.html).   
+- Combine this time series with the Mauna Loa data (the Warm-up exercise).
 - Plot the combined data.    
 - Describe your conclusions to the question "how do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
 
