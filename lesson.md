@@ -1,5 +1,5 @@
 
-# climate-module
+# Climate change module
 
 ## Overview
 
@@ -7,11 +7,9 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 - author: Quinn Thomas (adapted from Carl Boettiger (@cboettig))
 - contact: <rqthomas@vt.edu>
-- url: 
 - date: 2022-01-05
 - license: MIT, CC-BY
 - copyright: Quinn Thomas & Carl Boettiger
-- package: 
 
 ## Feedback
 

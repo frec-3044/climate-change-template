@@ -1,0 +1,135 @@
+---
+title: "Climate Change"
+format: 
+  revealjs:
+    embed-resources: true
+editor: visual
+---
+
+## What controls Earth's temperature?
+
+-   Amount of energy received by the sun
+-   Reflection vs absorption of sun's energy (albedo)
+-   The amount of energy retained by the earth's atmosphere.
+
+## Amount of energy recieved by the sun
+
+::: columns
+::: {.column width="40%"}
+-   The path of the earth around the sun and the angle of the earth vary at different time scales.
+-   Has been important influence for glacial periods (every 100,000 years) over the past 500,000 years.
+-   Milankovitch Cycles
+
+:::
+
+::: {.column width="60%"}
+![](img/solar-cycles1.png)
+:::
+
+:::
+
+## Amount of energy recieved from the sun?
+
+::: columns
+::: {.column width="40%"}
+-   Sunspots -- reflect magnetic activity of sun, and sun's brightness.
+-   Approximately an 11 year cycle
+:::
+
+::: {.column width="60%"}
+![](img/solar-cycles2.png)
+:::
+
+:::
+
+## Amount of energy related back to space
+
+::: columns
+::: {.column width="40%"}
+-   Albedo (reflectivity)
+-   Lighter things reflect more light energy
+-   Darker things absorb more light energy (heat)
+-   Creates positive feedback)
+-   Aerosols lead to increased reflection of solar radiation (Volcanic activity -\> cooling).
+:::
+
+::: {.column width="60%"}
+![](img/albedo.png)
+:::
+
+:::
+
+## Amount of energy retained by the atmosphere
+
+::: columns
+::: {.column width="40%"}
+-   The greenhouse effect: Energy is retained.
+-   Gases in the atmosphere trap heat (CO2, CH4, NOxs, CFCs)
+:::
+
+::: {.column width="60%"}
+![](img/ghg.png)
+:::
+:::
+
+## Global energy balance
+
+![](img/energy-balance1.png)
+
+## What is "global temperature"?
+
+Global surface temperature is calculated by averaging the temperatures over sea and land
+
+![](img/global-temp-map.png)
+
+## What is "global temperature"?
+
+-   Many groups across the world have generated datasets of global temperature
+-   One example, Hansen et al. 2010 from Goddard Institute for Space Studies, NASA http://pubs.giss.nasa.gov/docs/2010/2010_Hansen_etal_1.pdf
+-   Compiled different datasets from weather stations all over the world.
+-   Used a model to interpolate (smooth) data for land
+-   Use bucket (ships) and satellite measurements calibrated with ship measurements for the ocean
+
+## What would cause global temperature to change?
+
+## How do we measure atmospheric CO2?
+
+::: columns
+::: {.column width="60%"}
+-   Dr. Dave Keeling started measuring the CO2 concentration in air in 1958
+-   Collected air in vacuum cleared glass flasks and measured CO2 content
+-   Still measured with the method today (as well as sensors)
+:::
+
+::: {.column width="40%"}
+![](img/mauna-lao.png)
+:::
+:::
+
+## How do current changes compare to past climate?
+
+-   The earth is 4.54 billion years old
+-   The last ice age was 110,000 to 12,000 years ago with peak glaciation 22,000 years ago
+-   The world looked different!
+    -   Northern USA and Canada covered by ice (grey)
+    -   Southern US covered by taiga (coniferous forest) and grassland
+    -   Southern Europe was tundra
+
+## Ice cores!
+
+![](img/ice-core1.png)
+
+## Ice cores!
+
+![](img/ice-core2.png)
+
+## Ice cores!
+
+![](img/bubbles.png)
+
+## Key questions in module
+
+-   What is the evidence for a changing climate?
+-   How do find & interpret data sources behind main climate change indicators?
+-   How do we read and plot this data in a scriptable & reproducible manner?
+-   How do we communicate technical analysis in notebook formats that combine code, text, and visuals?
