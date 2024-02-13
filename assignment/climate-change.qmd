@@ -145,6 +145,7 @@ Your answers to this Question is going to be a mix of code chunks and text.
 
 # Knitting and committing
 
-Remember to Knit your document as a `github_document` and comment+push to GitHub your code, knitted document, and any files in the `figure-gfm` subdirectory that was created when you knitted the document.
+Remember to Render your document as a `html` and comment+push to GitHub your code, and rendered html that was created when you knitted the document.  Your GitHub repository should have multiple commits with informative commit messsages.
+
 
 
