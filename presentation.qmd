@@ -130,7 +130,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 -   How do we read and plot this data in a scriptable & reproducible manner?
 -   How do we communicate technical analysis in notebook formats that combine code, text, and visuals?
 
-## Key Data Science Objects
+## Key Data Science Objectives
 
 - Reading in data with diverse and unexpected formats
 - Searching for how to solve problems
