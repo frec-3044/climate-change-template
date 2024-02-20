@@ -1,5 +1,5 @@
 ---
-title: "Climate Change"
+title: "Climate Change Module"
 format: 
   revealjs:
     embed-resources: true
@@ -39,14 +39,14 @@ editor: visual
 :::
 :::
 
-## Amount of energy related back to space {.smaller}
+## Amount of energy reflected back to space {.smaller}
 
 ::: columns
-::: {.column width="40%"} 
+::: {.column width="40%"}
 -   Albedo (reflectivity)
 -   Lighter things reflect more light energy
 -   Darker things absorb more light energy (heat)
--   Creates positive feedback)
+-   Creates positive feedback
 -   Aerosols lead to increased reflection of solar radiation (Volcanic activity -\> cooling).
 :::
 
@@ -74,7 +74,7 @@ editor: visual
 
 ## What is "global temperature"?
 
-Global surface temperature is calculated by averaging the temperatures over sea and land
+Global surface temperature is calculated by averaging the temperatures over sea and land.  Communicated as an anomaly. 
 
 ![](img/global-temp-map.png)
 
@@ -88,7 +88,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 
 ## What would cause global temperature to change?
 
-## How do we measure atmospheric CO2? 
+## How do we measure atmospheric CO2?
 
 ::: columns
 ::: {.column width="60%"}
@@ -129,3 +129,9 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 -   How do find & interpret data sources behind main climate change indicators?
 -   How do we read and plot this data in a scriptable & reproducible manner?
 -   How do we communicate technical analysis in notebook formats that combine code, text, and visuals?
+
+## Key Data Science Objects
+
+- Reading in data with diverse and unexpected formats
+- Searching for how to solve problems
+- Question 10 has more independence for addressing a question with data.
