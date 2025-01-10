@@ -14,7 +14,7 @@ editor: visual
 
 ## Amount of energy received by the sun
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 -   The path of the earth around the sun and the earth's angle vary at different time scales.
 -   Has been an important influence for glacial periods (every 100,000 years) over the past 500,000 years.
@@ -24,24 +24,24 @@ editor: visual
 ::: {.column width="60%"}
 ![](img/solar-cycles1.png)
 :::
-:::
+:::::
 
 ## Amount of energy received from the sun?
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
-- Sunspots -- reflect the magnetic activity of the sun and the sun's brightness.
+-   Sunspots -- reflect the magnetic activity of the sun and the sun's brightness.
 -   Approximately an 11-year cycle
 :::
 
 ::: {.column width="60%"}
 ![](img/solar-cycles2.png)
 :::
-:::
+:::::
 
 ## Amount of energy reflected to space {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 -   Albedo (reflectivity)
 -   Lighter things reflect more light energy
@@ -53,11 +53,11 @@ editor: visual
 ::: {.column width="60%"}
 ![](img/albedo.png)
 :::
-:::
+:::::
 
 ## Amount of energy retained by the atmosphere
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 -   The greenhouse effect: Energy is retained.
 -   Gases in the atmosphere trap heat (CO2, CH4, NOxs, CFCs)
@@ -66,7 +66,7 @@ editor: visual
 ::: {.column width="60%"}
 ![](img/ghg.png)
 :::
-:::
+:::::
 
 ## Global energy balance
 
@@ -74,7 +74,7 @@ editor: visual
 
 ## What is "global temperature"?
 
-Global surface temperature is calculated by averaging the temperatures over sea and land.  Communicated as an anomaly. 
+Global surface temperature is calculated by averaging the temperatures over sea and land. Communicated as an anomaly.
 
 ![](img/global-temp-map.png)
 
@@ -90,7 +90,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 
 ## How do we measure atmospheric CO2?
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 -   Dr. Dave Keeling started measuring the CO2 concentration in air in 1958
 -   Collected air in vacuum-cleared glass flasks and measured CO2 content
@@ -100,7 +100,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 ::: {.column width="40%"}
 ![](img/mauna-lao.png)
 :::
-:::
+:::::
 
 ## How do current changes compare to past climate?
 
@@ -132,6 +132,6 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 
 ## Key Data Science Objectives
 
-- Reading data with diverse and unexpected formats
-- Searching for how to solve problems
-- Question 10 has more independence when addressing a question with data.
+-   Reading data with diverse and unexpected formats
+-   Searching for how to solve problems
+-   Question 10 has more independence when addressing a question with data.
