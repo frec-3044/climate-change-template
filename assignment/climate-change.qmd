@@ -55,7 +55,7 @@ How does CO2 vary within a year?  What month is it at max?  Min?  What might exp
 
 ## Global Temperature Data
 
-Current climate change affects many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g., West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature but also with the rate at which it changes. Rapid changes make it more likely that species cannot adapt and will go extinct. 
+Current climate change affects many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g., West Nile became established in the United States after an unusually warm winter, which allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature but also with the rate at which it changes. Rapid changes make it more likely that species cannot adapt and will go extinct. 
 
 Each of the most recent years has been the warmest on record. In this section, we will analyze global mean temperature data.
 
@@ -76,7 +76,7 @@ Describe the data set to the best of your ability, given the documentation provi
 
 Construct the necessary R code to import and prepare for plotting the following data set: <https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt>
 
-You will need to figure out the file's delimiter and any comments or skips. You will also need to be sure that you have column names. You will not directly use the code above to read the CO2 data, but that code provides helpful tips for reading the data.
+You'll need to determine the file's delimiter and any comments or skips. You will also need to be sure that you have column names. You will not directly use the code above to read the CO2 data, but that code provides helpful tips for reading the data.
 
 **Answer 4:**
 
@@ -90,17 +90,17 @@ Plot the trend in global mean temperatures over time.  Describe what you see in 
 
 The [2013 IPCC Report](https://www.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SummaryVolume_FINAL.pdf) included a tentative observation of a "much smaller increasing trend" in global mean temperatures since 1998 than was observed previously.  This led to much discussion in the media about the existence of a "Pause" or "Hiatus" in global warming rates, as well as much research looking into where the extra heat could have gone.  (Examples discussing this question include articles in [The Guardian](http://www.theguardian.com/environment/2015/jun/04/global-warming-hasnt-paused-study-finds), [BBC News](http://www.bbc.com/news/science-environment-28870988), and [Wikipedia](https://en.wikipedia.org/wiki/Global_warming_hiatus)). 
 
-You will use rolling averages to help you explore the evidence for a pause. Since you have not been provided instructions for calculating rolling means, this question's learning objective is to practice finding the solution.
+You will use rolling averages to help you explore the evidence for a pause. Since you have not been provided instructions for calculating rolling means, the learning objective of this question is to practice finding the solution.
 
 **Question 6:**
 
-Use a search engine (e.g., Google) to find out how to calculate a rolling average in R. What search term did you use, and what website did you end up using?  Why did you select this particular website?
+Use a search engine (e.g., Google) or a chat LLM to find out how to calculate a rolling average in R. What search term or chat LLM prompt did you use?  What website or answer from the chat LLM did you end up using?  How much did you need to modify the code from the website or chat LLM to answer the question successfully?
 
 **Answer 6:**
 
 **Question 7:**
 
-- What is the meaning of "5-year average" vs "annual average"?
+- What is the meaning of "5-year average" vs. "annual average"?
 - Create a data frame from the annual temperature anomaly data (from Question 4) with three new columns: 5-year running averages, 10-year running averages, and 20-year running averages.
 
 **Answer 7:**
@@ -119,7 +119,7 @@ By examining the data here, what evidence do you find or not find for such a pau
 
 ## Longer term trends in CO2 Records
 
-When analyzing Earth’s climate, it is important to remember that Earth is 4.54 billion years old. Our analyses so far have only looked at recent history. How can we compare the recent data to prehistoric times? Are the current rates of change similar or different from those the earth has experienced in the past? To explore this, we can use data taken from ice cores drilled at the poles. 
+When analyzing Earth’s climate, it is important to remember that Earth is 4.54 billion years old. Our analyses so far have only looked at recent history. How can we compare the recent data to prehistoric times? Are the current rates of change similar or different from those the earth has experienced in the past? To explore this, we can use data from ice cores drilled at the poles. 
 
 Hundreds of ice cores have been extracted from polar ice because they contain valuable data on atmospheric chemistry over pre-historic times. These valuable data exist in tiny air bubbles trapped in the ice. These air bubbles contain the same gases in the same ratios as the atmosphere at the time when the ice formed. The data you will analyze today are from ice cores extracted from the Vostok research station in Antarctica. As you have probably assumed, the depth of the ice core is related to how old the ice is; deep ice is older. There are two other variables that you will be analyzing from the ice cores.  You will analyze CO2 concentration, which has been measured from air bubbles trapped in the ice. We can use these data to see what rates of change were like during this pre-historic period, during which human activity was minimal. 
 
