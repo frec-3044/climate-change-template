@@ -13,7 +13,7 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Feedback
 
-- <https://github.com/frec3044/climate/issues>
+- <https://github.com/frec3044/climate-change/issues>
 
 ## Questions
 
@@ -37,7 +37,7 @@ What is the evidence for a changing climate? In this unit, we will examine some 
 
 ## Instructions
 
-  - Open the notebook `assignment/climate-change.Rmd` in RStudio
+  - Open the notebook `assignment/climate-change.qmd` in RStudio
   - Work through the exercises described in the notebook.
   - `knit` + commit output files to GitHub
 
