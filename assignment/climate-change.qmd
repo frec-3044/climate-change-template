@@ -15,9 +15,9 @@ library(tidyverse)
 - Example from <http://climate.nasa.gov/vital-signs/carbon-dioxide/>
 - Raw data from <https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt>
 
-In 1958, Dr. Charles David Keeling (1928-2005), who was a scientist at Scripps Institute of Oceanography, began collecting data on atmospheric CO2 concentration at the Mauna Loa Observatory located in Hawaii. This dataset is what allowed us to understand the degree to which climate change is human-caused through our burning of fossil fuels and release of CO2 into the atmosphere. Due to his scientific achievements, Dr. Keeling was awarded the National Medal of Science by President George W. Bush in 2002. This is the highest award for lifetime scientific achievement that can be granted in the U.S. Today, you get to analyze this same dataset, except that you have more data that was available to Dr. Keeling and his colleagues, because your dataset extends up to current time.
+In 1958, Dr. Charles David Keeling (1928-2005), a scientist at Scripps Institute of Oceanography, began collecting data on atmospheric CO2 concentration at the Mauna Loa Observatory located in Hawaii. This dataset allowed us to understand the degree to which climate change is human-caused through our burning of fossil fuels and release of CO2 into the atmosphere. Due to his scientific achievements, Dr. Keeling was awarded the National Medal of Science by President George W. Bush in 2002. This is the highest award for lifetime scientific achievement that can be granted in the U.S. Today, you get to analyze this same dataset, except that you have more data than was available to Dr. Keeling and his colleagues because your dataset extends up to the current time.
 
-To read the code, you will use a new function called `read_table`.  It is similar to `read_csv` except that it is looking for spaces between column entries rather than commas (remember that csv stands for comma-separated values).  Others include `read_tsv` which uses tabs to separate entries.  You can discover the separation type by putting <https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt> into your webbrowser and examining the file.  The code also includes an argument for comment, which denotes the character used define a line in the file as being a commment rather than data or a header.  Looking at the file also reveals that the column headers on lines with comments character so they won't be read in.  You will use the argument `col_names` to define the headers manually.  Finally, `NA` values are defined by the numbers -1 and -99 so that needs to be defined using the `na` argument (otherwise they will be read in as numeric values).
+To read the code, you will use a new function called `read_table`.  It is similar to `read_csv` except it looks for spaces between column entries rather than commas (remember that csv stands for comma-separated values).  Others include `read_tsv`, which uses tabs to separate entries.  You can discover the separation type by putting <https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.txt> into your web browser and examining the file.  The code also includes an argument for comment, which denotes the character used to define a line in the file as being a comment rather than data or a header.  The file also reveals that the column headers are on lines with a comment character, so they won't be read.  You will use the argument `col_names` to define the headers manually.  Finally, `NA` values are defined by the numbers -1 and -99, so they need to be defined using the `na` argument (otherwise, they will be read as numeric values).
 
 ```{r message=FALSE}
 
@@ -55,19 +55,19 @@ How does CO2 vary within a year?  What month is it at max?  Min?  What might exp
 
 ## Global Temperature Data
 
-Current climate change is affecting many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g. West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature, but also with the rate that the temperature changes. Very rapid changes make it more likely that species cannot adapt and will go extinct. 
+Current climate change affects many aspects of the environment, with socio-economic consequences. For example, a warmer climate can allow new diseases to be introduced and persist (e.g., West Nile became established in the United States after an unusually warm winter allowed the mosquitoes that carry the virus to survive and spread). We are concerned not only with the actual temperature but also with the rate at which it changes. Rapid changes make it more likely that species cannot adapt and will go extinct. 
 
-Each of the most recent years have the warmest on record.  In this section we will analyze global mean temperature data.
+Each of the most recent years has been the warmest on record. In this section, we will analyze global mean temperature data.
 
 Data from: <https://climate.nasa.gov/vital-signs/global-temperature/>
 
 **Question 3:**
 
-Describe the data set to the best of your ability given the documentation provided. 
+Describe the data set to the best of your ability, given the documentation provided. 
 
 - Where is the data from?
-- Describe class of each column and what units it is measured in. 
-- What is the different between "global temperature" and "global temperature anomaly"? 
+- Describe the class of each column and what units it is measured in. 
+- What is the difference between "global temperature" and "global temperature anomaly"? 
 
 **Answer 3:**
 
@@ -76,7 +76,7 @@ Describe the data set to the best of your ability given the documentation provid
 
 Construct the necessary R code to import and prepare for plotting the following data set: <https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt>
 
-You will need to figure out the delimiter for the file and any comments or skips.  You will also need to be sure that you have column names.  You will not directly use the code above for reading in the CO2 data, but that code provides helpful tips for reading in data.
+You will need to figure out the file's delimiter and any comments or skips. You will also need to be sure that you have column names. You will not directly use the code above to read the CO2 data, but that code provides helpful tips for reading the data.
 
 **Answer 4:**
 
@@ -90,17 +90,17 @@ Plot the trend in global mean temperatures over time.  Describe what you see in 
 
 The [2013 IPCC Report](https://www.ipcc.ch/pdf/assessment-report/ar5/wg1/WG1AR5_SummaryVolume_FINAL.pdf) included a tentative observation of a "much smaller increasing trend" in global mean temperatures since 1998 than was observed previously.  This led to much discussion in the media about the existence of a "Pause" or "Hiatus" in global warming rates, as well as much research looking into where the extra heat could have gone.  (Examples discussing this question include articles in [The Guardian](http://www.theguardian.com/environment/2015/jun/04/global-warming-hasnt-paused-study-finds), [BBC News](http://www.bbc.com/news/science-environment-28870988), and [Wikipedia](https://en.wikipedia.org/wiki/Global_warming_hiatus)). 
 
-You will use rolling averages to help you explore the evidence for a pause. You have not been provided instructions for calculating rolling means so a learning objective of this question is to practicing finding the solution.
+You will use rolling averages to help you explore the evidence for a pause. Since you have not been provided instructions for calculating rolling means, this question's learning objective is to practice finding the solution.
 
 **Question 6:**
 
-Use a search engine (e.g., Google), to search for how to calculate a rolling average in R. What search term did you use and what website did you end up using?  Why did you select this particular website?
+Use a search engine (e.g., Google) to find out how to calculate a rolling average in R. What search term did you use, and what website did you end up using?  Why did you select this particular website?
 
 **Answer 6:**
 
 **Question 7:**
 
-- What is the meaning of "5 year average" vs "annual average"?
+- What is the meaning of "5-year average" vs "annual average"?
 - Create a data frame from the annual temperature anomaly data (from Question 4) with three new columns: 5-year running averages, 10-year running averages, and 20-year running averages.
 
 **Answer 7:**
@@ -119,13 +119,13 @@ By examining the data here, what evidence do you find or not find for such a pau
 
 ## Longer term trends in CO2 Records
 
-When analyzing Earth’s climate, it is important to remember that Earth is 4.54 billion years old. Our analyses so far have only looked at recent history. How can we compare the recent data to pre-historic time? Are the current rates of change similar or different than those the earth has experienced in the past? To explore this, we can use data taken from ice cores that were drilled at the poles. 
+When analyzing Earth’s climate, it is important to remember that Earth is 4.54 billion years old. Our analyses so far have only looked at recent history. How can we compare the recent data to prehistoric times? Are the current rates of change similar or different from those the earth has experienced in the past? To explore this, we can use data taken from ice cores drilled at the poles. 
 
-Hundreds of ice cores have been extracted from polar ice because they contain valuable data on atmospheric chemistry over pre-historic time. These valuable data exist in tiny air bubbles that are trapped in the ice. These air bubbles contain the same gases in the same ratios as the atmosphere at the time when the ice formed. The data you will be analyzing today are from ice cores extracted from the Vostok research station in Antarctica. As you have probably assumed, the depth of the ice core is related to how old the ice is; deep ice is older. There are two other variables that you will be analyzing from the ice cores.  You will analyze CO2 concentration, which has been measured from air bubbles trapped in the ice. We can use these data to see what rates of change were like during this pre-historic period, during which human activity has been minimal. 
+Hundreds of ice cores have been extracted from polar ice because they contain valuable data on atmospheric chemistry over pre-historic times. These valuable data exist in tiny air bubbles trapped in the ice. These air bubbles contain the same gases in the same ratios as the atmosphere at the time when the ice formed. The data you will analyze today are from ice cores extracted from the Vostok research station in Antarctica. As you have probably assumed, the depth of the ice core is related to how old the ice is; deep ice is older. There are two other variables that you will be analyzing from the ice cores.  You will analyze CO2 concentration, which has been measured from air bubbles trapped in the ice. We can use these data to see what rates of change were like during this pre-historic period, during which human activity was minimal. 
 
 [Ice core data](https://data.ess-dive.lbl.gov/view/doi%3A10.3334%2FCDIAC%2FATG.009):
 
-Vostok Core, back to 400,000 yrs before present day 
+Vostok Core, back to 400,000 years before the present day 
 
 - Description of data set: <https://data.ess-dive.lbl.gov/view/doi%3A10.3334%2FCDIAC%2FATG.009>
 - data: <https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-457358fdc81d3a5-20180726T203952542>
@@ -146,19 +146,19 @@ The broad question is: how do recent atmospheric CO2 levels compare to historica
 Your answer to Question 10 is going to be a mix of code chunks and text that you put below in "Answer 10:"
 
 - Describe the data set: what are the columns and units? Where do the numbers come from? 
-- What is resolution of the data? Interpretation of missing values?  
+- What is the temporal resolution of the data? 
 - Read in and prepare data for analysis.   
 - Reverse the ordering to create a chronological record.    
 - Plot data.  
 - Combine this time series with the Mauna Loa data (the Warm-up exercise in this assignment).
 - Plot the combined data.    
-- Describe your conclusions to the question "how do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
+- Describe your conclusions to the question "How do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
 
 **Answer 10:**
 
 # Render and committing
 
-Remember to Render your document as a `html` and comment+push to GitHub your code, and rendered html that was created when you knitted the document.  Your GitHub repository should have multiple commits with informative commit messages.
+Remember to Render your document as HTML and comment+push to GitHub your code and rendered HTML that was created when you knitted the document.  Your GitHub repository should have multiple commits with informative commit messages.
 
 
 
