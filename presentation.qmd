@@ -22,7 +22,7 @@ editor: visual
 :::
 
 ::: {.column width="60%"}
-![](img/solar-cycles1.png)
+![](img/solar-cycles1.png){fig-alt="image different components of Milankovitch Cycles"}
 :::
 :::::
 
@@ -35,7 +35,7 @@ editor: visual
 :::
 
 ::: {.column width="60%"}
-![](img/solar-cycles2.png)
+![](img/solar-cycles2.png){fig-alt="graph of 11-year solar cycles"}
 :::
 :::::
 
@@ -51,7 +51,7 @@ editor: visual
 :::
 
 ::: {.column width="60%"}
-![](img/albedo.png)
+![](img/albedo.png){fig-alt="diagram of earth's albedo"}
 :::
 :::::
 
@@ -64,19 +64,19 @@ editor: visual
 :::
 
 ::: {.column width="60%"}
-![](img/ghg.png)
+![](img/ghg.png){fig-alt="diagram of greenhouse gas influence on earth's energy"}
 :::
 :::::
 
 ## Global energy balance
 
-![](img/energy-balance1.png)
+![](img/energy-balance1.png){fig-alt="diagram of global energy balance"}
 
 ## What is "global temperature"?
 
 Global surface temperature is calculated by averaging the temperatures over sea and land. Communicated as an anomaly.
 
-![](img/global-temp-map.png)
+![](img/global-temp-map.png){fig-alt="global map of surface temperature"}
 
 ## What is "global temperature"?
 
@@ -98,7 +98,7 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 :::
 
 ::: {.column width="40%"}
-![](img/mauna-lao.png)
+![](img/mauna-lao.png){fig-alt="map of Mauna Loa"}
 :::
 :::::
 
@@ -113,15 +113,15 @@ Global surface temperature is calculated by averaging the temperatures over sea 
 
 ## Ice cores!
 
-![](img/ice-core1.png)
+![](img/ice-core1.png){fig-alt="picture of ice core"}
 
 ## Ice cores!
 
-![](img/ice-core2.png)
+![](img/ice-core2.png){fig-alt="picture of ice core in storage"}
 
 ## Ice cores!
 
-![](img/bubbles.png)
+![](img/bubbles.png){fig-alt="picture of bubbles in ice core"}
 
 ## Key questions in module
 

@@ -136,6 +136,7 @@ You will use this code to download the data to your computer.
 download.file("https://data.ess-dive.lbl.gov/catalog/d1/mn/v2/object/ess-dive-457358fdc81d3a5-20180726T203952542",
               destfile = "vostok.icecore.co2")
 ```
+
 You can click on the file in your Files pane to view it before reading into R.
 
 
@@ -148,13 +149,18 @@ Your answer to Question 10 is going to be a mix of code chunks and text that you
 - Describe the data set: what are the columns and units? Where do the numbers come from? 
 - What is the temporal resolution of the data? 
 - Read in and prepare data for analysis.   
-- Reverse the ordering to create a chronological record.    
+- Reverse the ordering to create a chronological record so that each measurement is associcated with calender year.
 - Plot data.  
-- Combine this time series with the Mauna Loa data (the Warm-up exercise in this assignment).
-- Plot the combined data.    
+- Combine this time series with the Mauna Loa data (the Warm-up exercise in this assignment).  You will use "bind_rows()".
+- Plot the combined data. (the most recent time period must be on the right side of the plot).        
 - Describe your conclusions to the question "How do recent atmospheric CO2 levels compare to historical levels?" using your plot as supporting evidence.   
 
 **Answer 10:**
+
+```{r}
+
+
+```
 
 # Render and committing
 
